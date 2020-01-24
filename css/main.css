@@ -1,4 +1,3 @@
-@import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
 
@@ -9,6 +8,12 @@ html {
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 9.375px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .reverseColumn {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -34,6 +39,21 @@ body {
   color: #353535;
   margin: 0;
   padding: 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 30%;
+  height: auto;
+}
+
+.fontSmaller {
+  font-size: 18px !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1169,7 +1189,7 @@ header .header-logo a {
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 450px;
+  min-height: 804px;
   position: relative;
 }
 #home .overlay {
@@ -1197,13 +1217,13 @@ header .header-logo a {
 }
 .home-content-tablecell .row {
   position: relative;
-  padding-top: 16.2rem;
+  padding-top: 26.2rem;
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2.2rem;
-  color: white;
+  color:#fff;
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
@@ -1211,7 +1231,7 @@ header .header-logo a {
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
   font-size: 9rem;
-  line-height: 1.133;
+  line-height: 1.250;
   color: #FFFFFF;
 }
 .home-content-tablecell .more {
@@ -1412,11 +1432,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   padding: 4.2rem 0 12rem;
   background-color: #FFFFFF;
-  min-height: 696px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #about .about-wrap {
-  max-width: 850px;
+  max-width: 100%;
 }
 #about span {
   color: #07617d;
@@ -2012,8 +2033,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
-  font-size: 1.4rem;
+  color: #969696bf;
+  font-size: 2rem;
 }
 
 /* contact info */
