@@ -41,17 +41,6 @@ body {
   padding: 0;
 }
 
-.icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon img {
-  width: 30%;
-  height: auto;
-}
-
 .fontSmaller {
   font-size: 18px !important;
 }
@@ -1465,7 +1454,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
-  text-align: left;
+  text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
