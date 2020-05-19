@@ -827,6 +827,7 @@ input::-moz-focus-inner {
   text-align: center;
 }
 
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * section-intro
@@ -1440,7 +1441,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .3rem;
   position: relative;
 }
-#about h3::before {
+#about .main::before {
   display: block;
   content: "";
   width: 3px;
@@ -1455,6 +1456,23 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #2e383f;
   margin-top: 6rem;
   text-align: center;
+}
+#about .team-title {
+  font-family: "montserrat-bold", sans-serif;
+  color: #07617d;
+  text-transform: uppercase;
+  margin: 6rem;
+}
+.team h2 {
+  margin-top:1.5rem;
+  color: #2e383f;
+  font-family: "librebaskerville-bold", serif;
+}
+#about .team p {
+  font-family: "montserrat-bold", sans-serif;
+  margin-top: 0;
+  color: #07617d;
+  text-transform: uppercase;
 }
 
 /* ------------------------------------------------------------------- 
